@@ -1,0 +1,139 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.heading{
+    display: flex;
+    height:10%;
+}
+
+heading > logo{
+    width:30%;
+}
+
+heading > company{
+    width:70%;
+}
+
+.logo {
+    width: 30%;
+    height:100%;
+    
+}
+
+.logo img {
+    width:70%;
+    height:100%;
+    object-fit: cover ;
+}
+
+.heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-color: #f15526
+}
+
+h1 {
+    color: #013C4C;
+    border: 3px solid white;
+    padding: 5px 5px;
+}
+
+.body{
+    display: flex;
+    height: 90%;
+}
+
+body>navbar{
+    width: 30%;
+}
+
+body > content{
+    width: 70%;
+}
+
+.navbar{
+    width:20%;
+    border: 1px solid;
+    border-color: black;
+    margin: 2px 2px;
+}
+
+.packagebox {
+    background-image: url(../images/packagesbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    
+}
+
+h2, h4, p {
+    margin: 5px;
+    color: #FFDAB9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 
+    -1px -1px 0 #000000,  
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
+.pack1 {
+    background-color: rgba(0, 128, 128, 0.65);
+    
+    width: 85%;
+    margin: 5%;
+    display: flex;
+    height: 20%;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 1);
+}
+
+.pack2 {
+    background-color: rgba(0, 128, 128, 0.65);
+    width: 85%;
+    margin: 5%;
+    display: flex;
+    height: 20%;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 1);
+}
+
+.pack3 {
+    background-color: rgba(0, 128, 128, 0.65);
+    width: 85%;
+    margin: 5%;
+    display: flex;
+    height: 20%;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 1);
+}
+
+button{
+    width: 100%;
+    height: 16.75%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    text-align: left;
+    font-size: 3.5vh;
+    color: rgb(185, 0, 0);
+    background-color: black;
+    padding-left: 15px;
+    border: 2px solid #696969;
+    transition-duration: 5ms;
+    opacity: 0.75;
+}
+
+#packages {
+    opacity: 1;
+    zoom: 110%;
+    background-color: white;
+    color: black;
+}
+
+#home, #destinations, #form, #packages, #testimonials, #aboutus {
+    
+    background-position: right;
+    background-repeat: no-repeat;
+}
