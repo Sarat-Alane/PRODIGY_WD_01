@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+
+</head>
+
+<body>
+    <div class="heading">
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="logo">
+        </div>
+        <div class="company">
+            <h1 id="title">ABC Tours and Travels</h1>
+        </div>
+    </div>
+    <div class="body">
+        <div class="navbar">
+            <!-- Home -->
+            <a href="home.html"><button id="home"
+                    style="background-image: url(images/homebtn.png);">Home</button></a><br>
+            <!-- Various Destinations provided -->
+            <a href="destination.html"><button id="destinations"
+                    style="background-image: url(images/destinationsbtn.png);">Destinations</button></a><br>
+            <!-- Form for Booking -->
+            <a href="form.html"><button id="form" style="background-image: url(images/formbtn.png);">Plan your <br>
+                    Trip</button></a><br>
+            <!-- Company Packages -->
+            <a href="packages.html"><button id="packages"
+                    style="background-image: url(images/packagesbtn.png);">Packages</button></a><br>
+            <!-- Previous reviews -->
+            <a href="testimonials.html"><button id="testimonials"
+                    style="background-image: url(images/testimonialsbtn.png);">Testimonials</button></a><br>
+            <!-- About Us Page -->
+            <a href="aboutus.html"><button id="aboutus" style="background-image: url(images/aboutusbtn.png);">About
+                    Us</button></a><br>
+        </div>
+
+
+        <div class="planner">
+            <div class="fillform">
+                <form action="success.html">
+                <div class="personal">
+                    Enter your Name:<br>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="contact">
+                    <div class="tel">
+                        Enter Mobile Number:<br>
+                        <input type="tel" id="telephone" required>
+                
+                    </div>
+                    <div class="mail">
+                        Enter Mail ID:<br>
+                        <input type="email" id="email" required>
+                    </div>   
+                </div>
+                <div class="plan">
+                    <div class="dest">
+                        Enter Destination City:<br>
+                        <input type="text" id="city" placeholder="City" required>
+                        <input type="text" id="country" placeholder="Country" required>
+                    </div>
+                    <div class="date">
+                        <div class="strdt">
+                            Start Date:<br>
+                            <input type="date" id="startdate" required>
+                        </div>
+                        <div class="enddt">
+                            End Date:<br>
+                            <input type="date" id="enddate" required>
+                        </div>
+                    </div>
+                </div><br>
+                Enter Number of Passengers:
+                    <div class="passenger">
+                        <div class="adult">
+                            Number of Adults:
+                            <input type="number" id="adultpass" required>
+                        </div>
+                        Number of Children (Under 18):
+                        <div class="child">
+                            <input type="number" id="childpass" required>
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <button class="submitbtn" type="submit" value="submit" id="submitbutton">SUBMIT DETAILS</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="js/nav.js"></script>
+</body>
+
+</html>
