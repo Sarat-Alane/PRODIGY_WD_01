@@ -1,0 +1,156 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.heading{
+    display: flex;
+    height:10%;
+}
+
+heading > logo{
+    width:30%;
+}
+
+heading > company{
+    width:70%;
+}
+
+.logo {
+    width: 30%;
+    height:100%;
+    
+}
+
+.logo img {
+    width:70%;
+    height:100%;
+    object-fit: cover ;
+}
+
+.heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-color: #f15526
+}
+
+h1 {
+    color: #013C4C;
+    border: 3px solid white;
+    padding: 5px 5px;
+}
+
+.body{
+    display: flex;
+    height: 90%;
+}
+
+body>navbar{
+    width: 30%;
+}
+
+body > content{
+    width: 70%;
+}
+
+.navbar{
+    width:20%;
+    border: 1px solid;
+    border-color: black;
+    margin: 2px 2px;
+}
+
+.successbox {
+    background-image: url(../images/formbg.png);
+    background-size: cover;
+    width: 80%;
+    padding-top: 5%;
+}
+
+.successpara {
+    width: 65%;
+    height: 75%;
+    margin: auto;
+    background: linear-gradient(to bottom, #2de1e7, #d8a44b);
+    opacity: 0.75;
+    background-size: cover;
+    padding: 20px 20px;
+}
+
+.successparagraph {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 7px;
+    opacity: 1;
+    font-size: 2.5vh;
+}
+
+#backbtn {
+    width: 20%;
+    text-align: center;
+    opacity: 1;
+    padding: 7px 7px;
+    border: 2px solid rgb(87, 81, 81);
+    font-variant: normal;
+}
+
+#backbtn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(87, 81, 81);
+}
+
+button{
+    width: 100%;
+    height: 16.75%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    text-align: left;
+    font-size: 3.5vh;
+    color: rgb(185, 0, 0);
+    background-color: black;
+    padding-left: 15px;
+    border: 2px solid #696969;
+    transition-duration: 5ms;
+    opacity: 0.75;
+}
+
+#form {
+    opacity: 1;
+    zoom: 110%;
+    background-color: white;
+    color: black;
+}
+
+#home, #destinations, #form, #packages, #testimonials, #aboutus {
+    
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#submitbutton {
+    background-color: black;
+    font-size: 15px;
+    padding: 10px 5px;
+    border: 3px solid rgb(66, 63, 63);
+    border-radius: 30px;
+    color: white;
+    opacity: 1;
+
+}
+
+#submitbutton:hover {
+    background-color: white;
+    zoom: 100%;
+    color: black;
+}
+
+form {
+    color: black;
+}
+
+input {
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    background: transparent;
+}
