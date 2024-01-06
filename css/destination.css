@@ -1,0 +1,243 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    
+}
+
+.heading{
+    display: flex;
+    height:10%;
+}
+
+heading > logo{
+    width:30%;
+}
+
+heading > company{
+    width:70%;
+}
+
+.logo {
+    width: 30%;
+    height:100%;
+    
+}
+
+.logo img {
+    width:70%;
+    height:100%;
+    object-fit: cover ;
+}
+
+.heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-color: #f15526
+}
+
+h1 {
+    color: #013C4C;
+    border: 3px solid white;
+    padding: 5px 5px;
+}
+
+.body{
+    display: flex;
+    height: 90%;
+}
+
+body>navbar{
+    width: 30%;
+}
+
+body > content{
+    width: 70%;
+}
+
+.navbar{
+    width:20%;
+    border: 1px solid;
+    border-color: black;
+    margin: 2px 2px;
+}
+
+.page {
+    background-color: red;
+    width: 70%;
+    background-size: cover;
+    flex: 1;
+}
+
+.pagedesc {
+    width: 99.5%;
+    background-color: aquamarine;
+    background-size: cover;
+    margin-top: 0px;
+    margin: auto;
+}
+
+#mainpara {
+    font-family: cursive;
+    font-size: 2vh;
+}
+
+p {
+    padding: 10px 10px;
+    padding-bottom: 0px;
+}
+
+marquee {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+img {
+    width: 100%;
+    height: 580px;
+}
+
+#americapara, #britainpara, #italypara, #egyptpara, #auspara, #japanpara {
+    text-shadow: 
+    -1px -1px 0 #ffffff,  
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+
+.preview-card {
+    display: none;
+    position: absolute;
+    top: 160px; 
+    left: 325px; 
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 999;
+    width: 200px;
+}
+
+#america-preview {
+    background: repeating-radial-gradient(circle, #2626c2, #c12323);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    font-size: 2vh;
+    color: rgb(0, 0, 0);
+}
+
+#usaimg {
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+
+#britain-preview {
+    background: repeating-radial-gradient(circle, #c12323, #2626c2);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.75vh;
+    color: rgb(0, 0, 0);
+    top: 160px;
+    left: 600px;
+    font-size: 2vh;
+    font-weight: 1000;
+}
+
+#britainimg {
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+
+#italy-preview {
+    background: linear-gradient(to right, #008c45, #ffffff, #cd212a);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.75vh;
+    color: rgb(0, 0, 0);
+    top: 160px;
+    left: 650px;
+    font-size: 2vh;
+    font-weight: 1000;
+}
+
+#italyimg {
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+
+#egypt-preview {
+    background: linear-gradient(to bottom, #8c0000, #ffffff, #000000);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.75vh;
+    color: rgb(0, 0, 0);
+    top: 160px;
+    left: 650px;
+    font-size: 2vh;
+    font-weight: 1000;
+}
+
+#egyptimg {
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+
+#aus-preview {
+    background: linear-gradient(to bottom, #8c0000, #0d009a);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.75vh;
+    color: rgb(0, 0, 0);
+    top: 125px;
+    left: 950px;
+    font-size: 2vh;
+    font-weight: 1000;
+}
+
+#ausimg {
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+
+#japan-preview {
+    background: repeating-radial-gradient(circle, #a80101, #ffffff);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.75vh;
+    color: rgb(0, 0, 0);
+    top: 160px;
+    left: 950px;
+    font-size: 2vh;
+    font-weight: 1000;
+}
+
+#japanimg {
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+
+button{
+    width: 100%;
+    height: 16.75%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    text-align: left;
+    font-size: 3.5vh;
+    color: rgb(185, 0, 0);
+    background-color: black;
+    padding-left: 15px;
+    border: 2px solid #696969;
+    transition-duration: 5ms;
+    opacity: 0.75;
+}
+
+#destinations {
+    opacity: 1;
+    zoom: 110%;
+    background-color: white;
+    color: black;
+}
+
+#home, #destinations, #form, #packages, #testimonials, #aboutus {
+    
+    background-position: right;
+    background-repeat: no-repeat;
+}
