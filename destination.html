@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations</title>
+    <link rel="stylesheet" href="css/destination.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+
+</head>
+
+<body>
+    <div class="heading">
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="logo">
+        </div>
+        <div class="company">
+            <h1 id="title">ABC Tours and Travels</h1>
+        </div>
+    </div>
+    <div class="body">
+        <div class="navbar">
+            <!-- Home -->
+            <a href="home.html"><button id="home"
+                    style="background-image: url(images/homebtn.png);">Home</button></a><br>
+            <!-- Various Destinations provided -->
+            <a href="destination.html"><button id="destinations"
+                    style="background-image: url(images/destinationsbtn.png);">Destinations</button></a><br>
+            <!-- Form for Booking -->
+            <a href="form.html"><button id="form" style="background-image: url(images/formbtn.png);">Plan your <br>
+                    Trip</button></a><br>
+            <!-- Company Packages -->
+            <a href="packages.html"><button id="packages"
+                    style="background-image: url(images/packagesbtn.png);">Packages</button></a><br>
+            <!-- Previous reviews -->
+            <a href="testimonials.html"><button id="testimonials"
+                    style="background-image: url(images/testimonialsbtn.png);">Testimonials</button></a><br>
+            <!-- About Us Page -->
+            <a href="aboutus.html"><button id="aboutus" style="background-image: url(images/aboutusbtn.png);">About
+                    Us</button></a><br>
+        </div>
+        
+        
+        <div class="page">
+            <div class="pagedesc">
+                <p id="mainpara">Explore our diverse
+                    range of destinations by <b><u>hovering</u></b> the map below, showcasing the locations where our extraordinary trips
+                    await. For comprehensive trip packages, delve into our 'Packages' section to discover your next
+                    unforgettable adventure.
+                </p>
+                <marquee direction="left" behavior="scroll" scrollamount="5">Hover over the map for more Info</marquee>
+
+            </div>
+
+            <div class="mapimg">
+                <img src="images/worldmap.png" alt="Location Viewer" usemap="#destmap">
+
+                <div class="preview-card" id="america-preview">
+                    <img src="images/usacimg.jpeg" id="usaimg">
+                    <h3>United States of America</h3>
+                    <p id="americapara">Discover the United States: a land of diverse landscapes, vibrant cities, and
+                        rich cultural
+                        heritage. Explore iconic landmarks like the Grand Canyon, the Statue of Liberty, and the Golden
+                        Gate Bridge. Immerse yourself in bustling metropolises and
+                        experience the country's unique blend of history and modernity.</p>
+                </div>
+
+                <div class="preview-card" id="britain-preview">
+                    <img src="images/britainimg.jpg" id="britainimg">
+                    <h3>United Kingdom</h3>
+                    <p id="britainpara">Discover the charm of Great Britain—a blend of rich history, diverse cultures,
+                        and captivating landscapes. Explore iconic landmarks like London's Big Ben, Scotland's Edinburgh
+                        Castle, and the scenic English countryside. Immerse in tradition and modern sophistication,
+                        experiencing the best of both worlds</p>
+                </div>
+
+                <div class="preview-card" id="italy-preview">
+                    <img src="images/italyimg.jpeg" id="italyimg">
+                    <h3>Italy</h3>
+                    <p id="italypara">Experience Italy—a blend of rich history, stunning art, and mouthwatering
+                        cuisine. Explore iconic landmarks like the Colosseum in Rome, the artistry of Florence, and the
+                        romantic canals of Venice. Immerse in vibrant culture, delicious food, and centuries of
+                        unparalleled history.</p>
+                </div>
+
+                <div class="preview-card" id="egypt-preview">
+                    <img src="images/egyptimg.jpeg" id="egyptimg">
+                    <h3>Egypt</h3>
+                    <p id="egyptpara">Embark on a journey through the captivating tapestry of Egypt. Witness the
+                        grandeur of the Pyramids of Giza, sail along the storied Nile River, and unravel the mysteries
+                        of ancient temples. Immerse yourself in a vibrant culture adorned with bustling markets, rich
+                        traditions, and a heritage that echoes through millennia.</p>
+                </div>
+
+                <div class="preview-card" id="aus-preview">
+                    <img src="images/ausimg.jpeg" id="ausimg">
+                    <h3>Australia</h3>
+                    <p id="auspara">Australia's allure lies in its diverse landscapes and unique wildlife. From the
+                        iconic Outback with its stunning deserts to vibrant cities like Sydney and Melbourne, it offers
+                        a blend of natural wonders and modern marvels. Explore the Great Barrier Reef's vibrant marine
+                        life  creating an unforgettable experience in this
+                        vast and captivating country.</p>
+                </div>
+
+                <div class="preview-card" id="japan-preview">
+                    <img src="images/japanimg.jpeg" id="japanimg">
+                    <h3>Japan</h3>
+                    <p id="japanpara">Australia's allure lies in its diverse landscapes and unique wildlife. From the
+                        iconic Outback with its stunning deserts to vibrant cities like Sydney and Melbourne, it offers
+                        a blend of natural wonders and modern marvels. Explore the Great Barrier Reef's vibrant marine
+                        life  creating an unforgettable experience in this
+                        vast and captivating country.</p>
+                </div>
+
+                <map name="destmap">
+                    <area shape="rect" coords="150,150,350,250" onmouseover="showPreview('america-preview')"
+                        onmouseout="hidePreview('america-preview')">
+                    <area shape="rect" coords="525,175,550,200" onmouseover="showPreview('britain-preview')"
+                        onmouseout="hidePreview('britain-preview')">
+                    <area shape="rect" coords="575,225,625,250" onmouseover="showPreview('italy-preview')"
+                        onmouseout="hidePreview('italy-preview')">
+                    <area shape="rect" coords="650,250,675,300" onmouseover="showPreview('egypt-preview')"
+                        onmouseout="hidePreview('egypt-preview')">
+                    <area shape="rect" coords="950,375,1050,425" onmouseover="showPreview('aus-preview')"
+                        onmouseout="hidePreview('aus-preview')">
+                    <area shape="rect" coords="1000,150,1050,250" onmouseover="showPreview('japan-preview')"
+                        onmouseout="hidePreview('japan-preview')">
+
+
+                </map>
+            </div>
+        </div>
+    </div>
+    <script src="js/nav.js"></script>
+    <script src="js/imgmap.js"></script>
+</body>
+
+</html>
