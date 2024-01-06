@@ -1,0 +1,193 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.heading{
+    display: flex;
+    height:10%;
+}
+
+heading > logo{
+    width:30%;
+}
+
+heading > company{
+    width:70%;
+}
+
+.logo {
+    width: 30%;
+    height:100%;
+    
+}
+
+.logo img {
+    width:70%;
+    height:100%;
+    object-fit: cover ;
+}
+
+.heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-color: #f15526
+}
+
+h1 {
+    color: #013C4C;
+    border: 3px solid white;
+    padding: 5px 5px;
+}
+
+.body{
+    display: flex;
+    height: 90%;
+}
+
+body>navbar{
+    width: 30%;
+}
+
+body > content{
+    width: 70%;
+}
+
+.navbar{
+    width:20%;
+    border: 1px solid;
+    border-color: black;
+    margin: 2px 2px;
+}
+
+.planner {
+    background-image: url(../images/formbg.png);
+    background-size: cover;
+    width: 80%;
+    padding-top: 5%;
+}
+
+.fillform {
+    width: 65%;
+    height: 75%;
+    margin: auto;
+    background: linear-gradient(to bottom, #2de1e7, #d8a44b);
+    opacity: 0.75;
+    background-size: cover;
+    padding: 20px 20px;
+}
+
+.contact {
+    display: flex;
+
+}
+
+.tel {
+    width: 50%;
+}
+
+.mail {
+    float: left;
+    width: 50%;
+}
+
+.plan {
+    display: flex;
+}
+
+.dest {
+    width: 50%;
+}
+
+.date{
+    display: flex;
+    width: 50%;
+}
+
+.strdt {
+    width:50%;
+}
+
+.enddt {
+    width: 50%;
+}
+
+.passenger {
+    display: flex;
+}
+
+.adult {
+    width: 50%;
+}
+
+.personal, .contact, .plan, .passenger, .submit {
+    height: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    opacity: 1.0;
+}
+
+.submit {
+    width: 25%;
+    margin: auto;
+}
+
+.submitbtn {
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    height: 16.75%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    text-align: left;
+    font-size: 3.5vh;
+    color: rgb(185, 0, 0);
+    background-color: black;
+    padding-left: 15px;
+    border: 2px solid #696969;
+    transition-duration: 5ms;
+    opacity: 0.75;
+}
+
+#form {
+    opacity: 1;
+    zoom: 110%;
+    background-color: white;
+    color: black;
+}
+
+#home, #destinations, #form, #packages, #testimonials, #aboutus {
+    
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#submitbutton {
+    background-color: black;
+    font-size: 15px;
+    padding: 10px 5px;
+    border: 3px solid rgb(66, 63, 63);
+    border-radius: 30px;
+    color: white;
+    opacity: 1;
+
+}
+
+#submitbutton:hover {
+    background-color: white;
+    zoom: 100%;
+    color: black;
+}
+
+form {
+    color: black;
+}
+
+input {
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    background: transparent;
+}
