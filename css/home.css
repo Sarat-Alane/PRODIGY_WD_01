@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.heading{
+    display: flex;
+    height:10%;
+}
+
+heading > logo{
+    width:30%;
+}
+
+heading > company{
+    width:70%;
+}
+
+.logo {
+    width: 30%;
+    height:100%;
+    
+}
+
+.logo img {
+    width:70%;
+    height:100%;
+    object-fit: cover ;
+}
+
+.heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-color: #f15526
+}
+
+h1 {
+    color: #013C4C;
+    border: 3px solid white;
+    padding: 5px 5px;
+}
+
+.body{
+    display: flex;
+    height: 90%;
+}
+
+body>navbar{
+    width: 30%;
+}
+
+body > content{
+    width: 70%;
+}
+
+.navbar{
+    width:20%;
+    border: 1px solid;
+    border-color: black;
+    margin: 2px 2px;
+}
+
+.content {
+    flex: 1; 
+    height: 100%; 
+    background-image: url(../images/homebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button{
+    width: 100%;
+    height: 16.75%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    text-align: left;
+    font-size: 3.5vh;
+    color: rgb(185, 0, 0);
+    background-color: black;
+    padding-left: 15px;
+    border: 2px solid #696969;
+    transition-duration: 5ms;
+}
+
+.paragraph {
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 8% 12.5%;
+}
+
+#para {
+    font-size: 1.5vw;
+    padding: 50px 50px;
+    font-family: 'Pacifico', cursive;
+    color: #ffffe0;
+}
+
+#home {
+    zoom: 110%;
+}
+
+#home, #destinations, #form, #packages, #testimonials, #aboutus {
+    
+    background-position: right;
+    background-repeat: no-repeat;
+}
